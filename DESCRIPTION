@@ -1,0 +1,22 @@
+Package: pmsummary
+Type: Package
+Title: Summary Statistics
+Version: 0.1.0
+Author: Patrick Marburger
+Maintainer: The package maintainer <patrick.marburger@uzh.ch>
+Description: There are 5 different functions of base R (and utils) combined in this package.  
+    Boxplot: Produce box-and-whisker plot(s) of the given (grouped) values.  
+    Hist: The generic function hist computes a histogram of the given data values.  
+    Summary: summary is a generic function used to produce result summaries of the 
+    results of various model fitting functions. The function invokes particular methods 
+    which depend on the class of the first argument.  
+    Quantile: The generic function quantile produces sample quantiles corresponding to 
+    the given probabilities. The smallest observation corresponds to a probability of 0 
+    and the largest to a probability of 1.  
+    Head: Returns the first or last parts of a vector, matrix, table, data frame or function. 
+    Since head() and tail() are generic functions, they may also have been extended to other 
+    classes.  
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
